@@ -115,7 +115,7 @@ function draw() {
     checkpoint.play();
   }
 
-  trex.x = camera.position.x - 800;
+  trex.x = camera.position.x - displayWidth/4;
 
   if(frameCount % 10 == 0){
     createObstacles();
